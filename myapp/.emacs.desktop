@@ -1,0 +1,217 @@
+;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Sat Jan  7 15:31:19 2017
+;; Desktop file format version 206
+;; Emacs version 24.4.1
+
+;; Global section:
+(setq desktop-saved-frameset [frameset 1 (22640 35639 549182 288000) (desktop . "206") "kyon@debian.localdomain" nil nil ((((tty-type . "xterm") (tty . "/dev/tty") (display-type . color) (background-mode . light) (foreground-color . "unspecified-fg") (menu-bar-lines . 0) (background-color . "unspecified-bg") (font . "tty") (height . 45) (width . 83) (modeline . t) (unsplittable) (alpha 0.85 0.85) (frameset--id . "3766-CC6B-01AC-83FF") (frameset--mini t) (minibuffer . t)) ((min-height . 4) (min-width . 10) (min-height-ignore . 2) (min-width-ignore . 2) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 4) (min-pixel-width . 10) (min-pixel-height-ignore . 2) (min-pixel-width-ignore . 2) (min-pixel-height-safe . 1) (min-pixel-width-safe . 2)) leaf (pixel-width . 83) (pixel-height . 44) (total-width . 83) (total-height . 44) (normal-height . 1.0) (normal-width . 1.0) (buffer "settings.py" (selected . t) (hscroll . 0) (fringes 0 0 nil) (margins 3) (scroll-bars 0 0 t nil) (vscroll . 0) (dedicated) (point . 2932) (start . 2448))))])
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring '("staticf" "deb" "DATA"))
+(setq regexp-search-ring nil)
+(setq register-alist nil)
+(setq file-name-history '("~/py_st/sample_django/myvenv/myapp/" "~/py_st/sample_django/myvenv/static/css/blog.css" "~/py_st/sample_django/myvenv/static/css" "~/py_st/sample_django/myvenv/myapp/" "~/py_st/sample_django/myvenv/static" "~/py_st/sample_django/myvenv/" "~/py_st/sample_django/myvenv/blog/templates/blog/post_list.html" "~/py_st/sample_django/myvenv/" "~/py_st/sample_django/myvenv/blog/templates/blog/post_list.html" "~/py_st/sample_django/myvenv/blog/views.py" "~/py_st/sample_django/myvenv/myapp/" "~/py_st/sample_django/myvenv/blog/" "~/py_st/sample_django/myvenv/blog/models.py" "~/py_st/sample_django/myvenv/blog/" "~/py_st/sample_django/myvenv/blog/templates/blog/" "~/py_st/sample_django/myvenv/" "~/py_st/sample_django/myvenv/myapp/" "~/py_st/sample_django/myvenv/.gitignore" "~/py_st/sample_django/myvenv/myapp/" "~/py_st/sample_django/myvenv/myapp/wsgi.py" "~/py_st/sample_django/myvenv/myapp/settings.py"))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 206
+  "/home/kyon/py_st/sample_django/myvenv/myapp/settings.py"
+  "settings.py"
+  'python-mode
+  '(linum-mode auto-complete-mode flymake-mode)
+  2932
+  '(2833 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/kyon/py_st/sample_django/myvenv/blog/templates/blog/post_list.html"
+  "post_list.html"
+  'html-mode
+  '(linum-mode)
+  343
+  '(25 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/home/kyon/py_st/sample_django/myvenv/static/css/blog.css"
+  "blog.css"
+  'css-mode
+  '(linum-mode)
+  29
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  nil
+  "css"
+  'dired-mode
+  '(linum-mode)
+  151
+  '(nil nil)
+  t
+  '("/home/kyon/py_st/sample_django/myvenv/static/css/")
+  nil)
+
+(desktop-create-buffer 206
+  nil
+  "static"
+  'dired-mode
+  '(linum-mode)
+  190
+  '(nil nil)
+  t
+  '("/home/kyon/py_st/sample_django/myvenv/static/")
+  nil)
+
+(desktop-create-buffer 206
+  nil
+  "myvenv"
+  'dired-mode
+  '(linum-mode)
+  930
+  '(708 nil)
+  t
+  '("/home/kyon/py_st/sample_django/myvenv/")
+  nil)
+
+(desktop-create-buffer 206
+  nil
+  "myapp"
+  'dired-mode
+  '(linum-mode)
+  144
+  '(nil nil)
+  t
+  '("/home/kyon/py_st/sample_django/myvenv/myapp/")
+  nil)
+
+(desktop-create-buffer 206
+  nil
+  "sample_django"
+  'dired-mode
+  '(linum-mode)
+  236
+  '(nil nil)
+  t
+  '("/home/kyon/py_st/sample_django/")
+  nil)
+
+(desktop-create-buffer 206
+  "/home/kyon/py_st/sample_django/myvenv/blog/views.py"
+  "views.py"
+  'python-mode
+  '(linum-mode auto-complete-mode flymake-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/kyon/py_st/sample_django/myvenv/blog/models.py"
+  "models.py"
+  'python-mode
+  '(linum-mode auto-complete-mode flymake-mode)
+  64
+  '(nil nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  nil
+  "blog"
+  'dired-mode
+  '(linum-mode)
+  405
+  '(nil nil)
+  t
+  '("/home/kyon/py_st/sample_django/myvenv/blog/")
+  nil)
+
+(desktop-create-buffer 206
+  "/home/kyon/py_st/sample_django/myvenv/blog/admin.py"
+  "admin.py"
+  'python-mode
+  '(linum-mode auto-complete-mode flymake-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  nil
+  "blog"
+  'dired-mode
+  '(linum-mode)
+  204
+  '(nil nil)
+  t
+  '("/home/kyon/py_st/sample_django/myvenv/blog/templates/blog/")
+  nil)
+
+(desktop-create-buffer 206
+  nil
+  "templates"
+  'dired-mode
+  '(linum-mode)
+  199
+  '(nil nil)
+  t
+  '("/home/kyon/py_st/sample_django/myvenv/blog/templates/")
+  nil)
+
+(desktop-create-buffer 206
+  "/home/kyon/py_st/sample_django/myvenv/blog/urls.py"
+  "urls.py"
+  'python-mode
+  '(linum-mode auto-complete-mode flymake-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/kyon/py_st/sample_django/myvenv/Procfile"
+  "Procfile"
+  'fundamental-mode
+  '(linum-mode)
+  26
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/kyon/py_st/sample_django/myvenv/.gitignore"
+  ".gitignore"
+  'fundamental-mode
+  '(linum-mode)
+  69
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/home/kyon/py_st/sample_django/myvenv/myapp/wsgi.py"
+  "wsgi.py"
+  'python-mode
+  '(linum-mode auto-complete-mode flymake-mode)
+  479
+  '(1 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
